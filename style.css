@@ -101,3 +101,18 @@ img{
     font-weight: 500;
 }
 
+.hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 60px;
+    gap: 60px;
+    height: calc(100vh - 75px);
+}
+
+.hero__content, 
+.hero__intro{
+    width: 50%;
+}
+
